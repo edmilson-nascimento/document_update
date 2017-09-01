@@ -7,15 +7,26 @@ Este tem como objeto fazer um modelo de base para que seja poupado trabalho quan
   - Utilização de BAPI
   - Atualização de cabeçalho, item, taxas e etc
   - Filtro para NF informada na Selection-Screen
+  - 
+## Atualização das informações 
 
-# Atualizações
+É possivel fazer alteração dos valores que espera que sejam atualizados no pontos onde as informações são passadas para as estrutura/tabelas da BAPI:
+```abap
+    loop at lt_j_1bnflin into ls_j_1bnflin .
+      ls_j_1bnflin-taxsi4 = '04' .
+      append ls_j_1bnflin to doc_item .
+    endloop .
+```
 
-  - Import a HTML file and watch it magically convert to Markdown
+As informações são recuperadas pelas estruturas/tabelas `ls_j_1bnfdoc` e `lt_j_1bnflin`, mas as informações que serão atualizadas estão nos parâmetros de entrada da função `'J_1B_NF_DOCUMENT_UPDATE'`.
+
+Apos a execução, é necessário um `commit` de bando de dados, que nesse caso é feito pela `BAPI` responsavel.
 
 ```abap
-    types:
-      range_docnum type range of j_1bnfdoc-docnum,
-      range_nftype type range of j_1bnfdoc-nftype,
-      range_bukrs  type range of j_1bnfdoc-bukrs .
-
+      call function 'BAPI_TRANSACTION_COMMIT'
+*         exporting
+*           wait          =
+*         importing
+*           return        =
+                .
 ```
