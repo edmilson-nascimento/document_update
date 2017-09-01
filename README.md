@@ -11,3 +11,11 @@ Este tem como objeto fazer um modelo de base para que seja poupado trabalho quan
 # Atualizações
 
   - Import a HTML file and watch it magically convert to Markdown
+
+```abap
+    types:
+      range_docnum type range of j_1bnfdoc-docnum,
+      range_nftype type range of j_1bnfdoc-nftype,
+      range_bukrs  type range of j_1bnfdoc-bukrs .
+
+```
