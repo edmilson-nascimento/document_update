@@ -7,7 +7,7 @@ Este tem como objeto fazer um modelo de base para que seja poupado trabalho quan
   - Utilização de BAPI
   - Atualização de cabeçalho, item, taxas e etc
   - Filtro para NF informada na Selection-Screen
-  - 
+  
 ## Atualização das informações 
 
 É possivel fazer alteração dos valores que espera que sejam atualizados no pontos onde as informações são passadas para as estrutura/tabelas da BAPI:
