@@ -44,7 +44,7 @@ A recuperação dessas informações pode ser feita através da BAPI `'J_1B_NF_D
   
 ## Alteração das informações 
 
-Apos a *Recuperação das informações*, ficam disponivel as tabelas internas para que os dados sejam alterados. Basta atualizar o registro que deseja antes de chamar a próxima `BAPI`.
+Apos a *Recuperação das informações*, ficam disponíveis as tabelas internas para que os dados sejam alterados. Basta atualizar o registro que deseja antes de chamar a próxima `BAPI`.
 
 ## Atualização das informações 
 
