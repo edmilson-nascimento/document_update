@@ -1,5 +1,3 @@
-
-
 report  z_document_update.
 
 tables:
@@ -31,7 +29,6 @@ start-of-selection .
 
   field-symbols:
     <j_1bnflin>    type j_1bnflin .
-
 
 
   select *
