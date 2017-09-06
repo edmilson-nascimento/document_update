@@ -40,7 +40,8 @@ A recuperação dessas informações pode ser feita através da BAPI `'J_1B_NF_D
           message id sy-msgid type sy-msgty number sy-msgno
                 with sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
         endif.
-  ```abap
+  ```
+  
 ## Alteração das informações 
 
 Apos a *Recuperação das informações*, ficam disponivel as tabelas internas para que os dados sejam alterados. Basta atualizar o registro que deseja antes de chamar a próxima `BAPI`.
