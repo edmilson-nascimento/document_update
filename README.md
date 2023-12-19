@@ -1,6 +1,6 @@
 # Atualização de NF
 
-[![N|Solid](https://wiki.scn.sap.com/wiki/download/attachments/1710/ABAP%20Development.png?version=1&modificationDate=1446673897000&api=v2)](https://www.sap.com/brazil/developer.html)
+document_update
 
 Este tem como objeto fazer um modelo de base para que seja poupado trabalho quando houver uma solução de atualização de Nota Fiscal.
 
