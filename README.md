@@ -7,7 +7,7 @@ Este tem como objeto fazer um modelo de base para que seja poupado trabalho quan
 
   - Utilização de BAPI
   - Atualização de cabeçalho, item, taxas e etc
-  - Filtro para NF informada na Selection-Screen
+  - Filtro para NF informada na `Selection-Screen`
   
 ## Recuperação das informações 
 
@@ -57,7 +57,7 @@ Apos a *Recuperação das informações*, ficam disponíveis as tabelas internas
     endloop .
 ```
 
-As informações são recuperadas pelas estruturas/tabelas `ls_j_1bnfdoc` e `lt_j_1bnflin`, mas as informações que serão atualizadas estão nos parâmetros de entrada da função `'J_1B_NF_DOCUMENT_UPDATE'`.
+As informações são recuperadas pelas estruturas/tabelas `ls_j_1bnfdoc` e `lt_j_1bnflin`, mas as informações que serão atualizadas estão nos parâmetros de entrada da função `J_1B_NF_DOCUMENT_UPDATE`.
 
 Apos a execução, é necessário um `commit` de bando de dados, que nesse caso é feito pela `BAPI` responsavel.
 
