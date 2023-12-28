@@ -7,7 +7,7 @@ Este tem como objeto fazer um modelo de base para que seja poupado trabalho quan
 
   - Utilização de BAPI
   - Atualização de cabeçalho, item, taxas e etc
-  - Filtro para NF informada na `Selection-Screen`
+  - Filtro para NF informada na `selection-screen`
   
 ## Recuperação das informações 
 
