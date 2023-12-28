@@ -49,7 +49,7 @@ Apos a *Recuperação das informações*, ficam disponíveis as tabelas internas
 
 ## Atualização das informações 
 
-É possivel fazer alteração dos valores que espera que sejam atualizados no pontos onde as informações são passadas para as estrutura/tabelas da BAPI. Nesse caso, estou alterando apenas o campo `taxsi4` que corresponde a *Situação de imposto COFINS*, mas ser aplicados a varios campos diferentes.
+É possivel fazer alteração dos valores que espera que sejam atualizados no pontos onde as informações são passadas para as estrutura/tabelas da BAPI. Nesse caso, estou alterando apenas o campo `taxsi4` que corresponde a *Situação de impostos COFINS*, mas pode ser aplicados a varios campos diferentes.
 ```abap
     loop at lt_j_1bnflin into ls_j_1bnflin .
       ls_j_1bnflin-taxsi4 = '04' .
