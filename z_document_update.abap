@@ -63,9 +63,7 @@ start-of-selection .
             docum_lock               = 2
             others                   = 3 .
 
-        if sy-subrc eq 0 .
-
-        else .
+        if sy-subrc <> 0 .
           message id sy-msgid type sy-msgty number sy-msgno
                 with sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
         endif.
